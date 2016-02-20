@@ -1,6 +1,6 @@
 # Rekt
 
- ## Inspiration
+## Inspiration
 1 in every 4 drivers in America will experience a car crash at least one time in their lives, with many of these people being involved in more than one accident. Many new and inexperienced drivers are unsure of what to do after an accident, and most of the time they become confused and start to panic. This widespread problem became apparent to us when we recently got into a car accident. After the incident, we were unsure of what we actually needed to do and what information we needed to collect, and we even were too shocked to quickly let our parents know what had happened. Therefore, we decided to create an iOS application to solve this issue by providing a platform for drivers to efficiently go through the process after a car accident. 
 
 ## How we built it
