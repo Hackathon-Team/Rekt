@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5686CA21C4CC5B50035F232 /* NewAccidentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5686CA11C4CC5B50035F232 /* NewAccidentVC.swift */; };
+		A5686CA41C4CDBC90035F232 /* PersonInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5686CA31C4CDBC90035F232 /* PersonInfoVC.swift */; };
+		A5A515851C4A400800FD4CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A515841C4A400800FD4CBF /* AppDelegate.swift */; };
+		A5A515871C4A400800FD4CBF /* AccidentReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A515861C4A400800FD4CBF /* AccidentReportVC.swift */; };
+		A5A5158A1C4A400900FD4CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A515881C4A400900FD4CBF /* Main.storyboard */; };
+		A5A5158C1C4A400900FD4CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A5158B1C4A400900FD4CBF /* Assets.xcassets */; };
+		A5A5158F1C4A400900FD4CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A5158D1C4A400900FD4CBF /* LaunchScreen.storyboard */; };
+		A5A5159A1C4A400900FD4CBF /* RektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A515991C4A400900FD4CBF /* RektTests.swift */; };
+		A5A515A51C4A400900FD4CBF /* RektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A515A41C4A400900FD4CBF /* RektUITests.swift */; };
+		A5A79C981C4D8584000A393F /* DocumentAccidentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A79C971C4D8584000A393F /* DocumentAccidentVC.swift */; };
+		A5A79CA81C4E2864000A393F /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A79CA61C4E2864000A393F /* Driver.swift */; };
+		A5A79CAF1C4E2DE9000A393F /* Witness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A79CAD1C4E2DE9000A393F /* Witness.swift */; };
+		A5A79CBD1C4E4349000A393F /* Accident.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A79CBB1C4E4349000A393F /* Accident.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A515961C4A400900FD4CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A515791C4A400800FD4CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A515801C4A400800FD4CBF;
+			remoteInfo = Rekt;
+		};
+		A5A515A11C4A400900FD4CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A515791C4A400800FD4CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A515801C4A400800FD4CBF;
+			remoteInfo = Rekt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5686CA11C4CC5B50035F232 /* NewAccidentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccidentVC.swift; sourceTree = "<group>"; };
+		A5686CA31C4CDBC90035F232 /* PersonInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoVC.swift; sourceTree = "<group>"; };
+		A5A515811C4A400800FD4CBF /* Rekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A515841C4A400800FD4CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5A515861C4A400800FD4CBF /* AccidentReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccidentReportVC.swift; sourceTree = "<group>"; };
+		A5A515891C4A400900FD4CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A5158B1C4A400900FD4CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A5158E1C4A400900FD4CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A515901C4A400900FD4CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A515951C4A400900FD4CBF /* RektTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RektTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A515991C4A400900FD4CBF /* RektTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RektTests.swift; sourceTree = "<group>"; };
+		A5A5159B1C4A400900FD4CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A515A01C4A400900FD4CBF /* RektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A515A41C4A400900FD4CBF /* RektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RektUITests.swift; sourceTree = "<group>"; };
+		A5A515A61C4A400900FD4CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A79C971C4D8584000A393F /* DocumentAccidentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentAccidentVC.swift; sourceTree = "<group>"; };
+		A5A79CA61C4E2864000A393F /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = ../Driver.swift; sourceTree = "<group>"; };
+		A5A79CAD1C4E2DE9000A393F /* Witness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Witness.swift; path = ../Witness.swift; sourceTree = "<group>"; };
+		A5A79CBB1C4E4349000A393F /* Accident.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accident.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A5157E1C4A400800FD4CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A515921C4A400900FD4CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5159D1C4A400900FD4CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55087C21C78EE6D009B5B7E /* Accident Info */ = {
+			isa = PBXGroup;
+			children = (
+				A5A79CBB1C4E4349000A393F /* Accident.swift */,
+				A5A79CAD1C4E2DE9000A393F /* Witness.swift */,
+				A5A79CA61C4E2864000A393F /* Driver.swift */,
+			);
+			name = "Accident Info";
+			sourceTree = "<group>";
+		};
+		A5A515781C4A400800FD4CBF = {
+			isa = PBXGroup;
+			children = (
+				A5A515831C4A400800FD4CBF /* Rekt */,
+				A5A515981C4A400900FD4CBF /* RektTests */,
+				A5A515A31C4A400900FD4CBF /* RektUITests */,
+				A5A515821C4A400800FD4CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A515821C4A400800FD4CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A515811C4A400800FD4CBF /* Rekt.app */,
+				A5A515951C4A400900FD4CBF /* RektTests.xctest */,
+				A5A515A01C4A400900FD4CBF /* RektUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A515831C4A400800FD4CBF /* Rekt */ = {
+			isa = PBXGroup;
+			children = (
+				A55087C21C78EE6D009B5B7E /* Accident Info */,
+				A5A515841C4A400800FD4CBF /* AppDelegate.swift */,
+				A5A5158B1C4A400900FD4CBF /* Assets.xcassets */,
+				A5A515881C4A400900FD4CBF /* Main.storyboard */,
+				A5A79CAB1C4E2DB2000A393F /* ViewControllers */,
+				A5A5158D1C4A400900FD4CBF /* LaunchScreen.storyboard */,
+				A5A515901C4A400900FD4CBF /* Info.plist */,
+			);
+			path = Rekt;
+			sourceTree = "<group>";
+		};
+		A5A515981C4A400900FD4CBF /* RektTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A515991C4A400900FD4CBF /* RektTests.swift */,
+				A5A5159B1C4A400900FD4CBF /* Info.plist */,
+			);
+			path = RektTests;
+			sourceTree = "<group>";
+		};
+		A5A515A31C4A400900FD4CBF /* RektUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A515A41C4A400900FD4CBF /* RektUITests.swift */,
+				A5A515A61C4A400900FD4CBF /* Info.plist */,
+			);
+			path = RektUITests;
+			sourceTree = "<group>";
+		};
+		A5A79CAB1C4E2DB2000A393F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5A515861C4A400800FD4CBF /* AccidentReportVC.swift */,
+				A5686CA11C4CC5B50035F232 /* NewAccidentVC.swift */,
+				A5686CA31C4CDBC90035F232 /* PersonInfoVC.swift */,
+				A5A79C971C4D8584000A393F /* DocumentAccidentVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A515801C4A400800FD4CBF /* Rekt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A515A91C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "Rekt" */;
+			buildPhases = (
+				A5A5157D1C4A400800FD4CBF /* Sources */,
+				A5A5157E1C4A400800FD4CBF /* Frameworks */,
+				A5A5157F1C4A400800FD4CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rekt;
+			productName = Rekt;
+			productReference = A5A515811C4A400800FD4CBF /* Rekt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A515941C4A400900FD4CBF /* RektTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A515AC1C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "RektTests" */;
+			buildPhases = (
+				A5A515911C4A400900FD4CBF /* Sources */,
+				A5A515921C4A400900FD4CBF /* Frameworks */,
+				A5A515931C4A400900FD4CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A515971C4A400900FD4CBF /* PBXTargetDependency */,
+			);
+			name = RektTests;
+			productName = RektTests;
+			productReference = A5A515951C4A400900FD4CBF /* RektTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A5159F1C4A400900FD4CBF /* RektUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A515AF1C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "RektUITests" */;
+			buildPhases = (
+				A5A5159C1C4A400900FD4CBF /* Sources */,
+				A5A5159D1C4A400900FD4CBF /* Frameworks */,
+				A5A5159E1C4A400900FD4CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A515A21C4A400900FD4CBF /* PBXTargetDependency */,
+			);
+			name = RektUITests;
+			productName = RektUITests;
+			productReference = A5A515A01C4A400900FD4CBF /* RektUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A515791C4A400800FD4CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ARRA;
+				TargetAttributes = {
+					A5A515801C4A400800FD4CBF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XTED42S9SG;
+					};
+					A5A515941C4A400900FD4CBF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XTED42S9SG;
+						TestTargetID = A5A515801C4A400800FD4CBF;
+					};
+					A5A5159F1C4A400900FD4CBF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XTED42S9SG;
+						TestTargetID = A5A515801C4A400800FD4CBF;
+					};
+				};
+			};
+			buildConfigurationList = A5A5157C1C4A400800FD4CBF /* Build configuration list for PBXProject "Rekt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A515781C4A400800FD4CBF;
+			productRefGroup = A5A515821C4A400800FD4CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A515801C4A400800FD4CBF /* Rekt */,
+				A5A515941C4A400900FD4CBF /* RektTests */,
+				A5A5159F1C4A400900FD4CBF /* RektUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A5157F1C4A400800FD4CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5158F1C4A400900FD4CBF /* LaunchScreen.storyboard in Resources */,
+				A5A5158C1C4A400900FD4CBF /* Assets.xcassets in Resources */,
+				A5A5158A1C4A400900FD4CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A515931C4A400900FD4CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5159E1C4A400900FD4CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A5157D1C4A400800FD4CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A79CA81C4E2864000A393F /* Driver.swift in Sources */,
+				A5A79CAF1C4E2DE9000A393F /* Witness.swift in Sources */,
+				A5A79CBD1C4E4349000A393F /* Accident.swift in Sources */,
+				A5A79C981C4D8584000A393F /* DocumentAccidentVC.swift in Sources */,
+				A5686CA41C4CDBC90035F232 /* PersonInfoVC.swift in Sources */,
+				A5686CA21C4CC5B50035F232 /* NewAccidentVC.swift in Sources */,
+				A5A515871C4A400800FD4CBF /* AccidentReportVC.swift in Sources */,
+				A5A515851C4A400800FD4CBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A515911C4A400900FD4CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5159A1C4A400900FD4CBF /* RektTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5159C1C4A400900FD4CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A515A51C4A400900FD4CBF /* RektUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A515971C4A400900FD4CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A515801C4A400800FD4CBF /* Rekt */;
+			targetProxy = A5A515961C4A400900FD4CBF /* PBXContainerItemProxy */;
+		};
+		A5A515A21C4A400900FD4CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A515801C4A400800FD4CBF /* Rekt */;
+			targetProxy = A5A515A11C4A400900FD4CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5A515881C4A400900FD4CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A515891C4A400900FD4CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A5158D1C4A400900FD4CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A5158E1C4A400900FD4CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A515A71C4A400900FD4CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A515A81C4A400900FD4CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A515AA1C4A400900FD4CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Rekt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.Rekt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A515AB1C4A400900FD4CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Rekt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.Rekt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5A515AD1C4A400900FD4CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RektTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.RektTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rekt.app/Rekt";
+			};
+			name = Debug;
+		};
+		A5A515AE1C4A400900FD4CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RektTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.RektTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rekt.app/Rekt";
+			};
+			name = Release;
+		};
+		A5A515B01C4A400900FD4CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RektUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.RektUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rekt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A5A515B11C4A400900FD4CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RektUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arra.RektUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rekt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A5157C1C4A400800FD4CBF /* Build configuration list for PBXProject "Rekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A515A71C4A400900FD4CBF /* Debug */,
+				A5A515A81C4A400900FD4CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A515A91C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "Rekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A515AA1C4A400900FD4CBF /* Debug */,
+				A5A515AB1C4A400900FD4CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A515AC1C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "RektTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A515AD1C4A400900FD4CBF /* Debug */,
+				A5A515AE1C4A400900FD4CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A515AF1C4A400900FD4CBF /* Build configuration list for PBXNativeTarget "RektUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A515B01C4A400900FD4CBF /* Debug */,
+				A5A515B11C4A400900FD4CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A515791C4A400800FD4CBF /* Project object */;
+}

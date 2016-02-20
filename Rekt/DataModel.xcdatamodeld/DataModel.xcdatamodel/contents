@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="Accident" representedClassName=".Accident" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="driver" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="images" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="witness" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accident" positionX="-18" positionY="45" width="128" height="105"/>
+    </elements>
+</model>
