@@ -4,7 +4,7 @@ Rekt is your friendly Collision Companion!
 
 It is an iOS app that introduces a streamlined way to help new and inexperienced drivers with accident logistics. Created for Oakland Hacks 2016. Also submitted to House App Challenge 2016.
 
-Check it out on [DevPost](http://devpost.com/software/rekt-your-collision-companion)!
+Check it out on [DevPost](http://devpost.com/software/rekt)!
 
 Click [here](https://www.youtube.com/watch?v=B461ANVFWJw) or the image below to check out our app video!
 
